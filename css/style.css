@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(228, 28, 142, 0.8392156863), #FFB800);
+}
+.wrapper header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+.wrapper header .first-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+}
+.wrapper header .first-card ul {
+  list-style: none;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper header .first-card ul li {
+  color: white;
+  font-family: Open Sans;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: -0.065em;
+}
+.wrapper header .second-card {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper header .second-card .shopping-img {
+  margin-right: 40px;
+}
+.wrapper header .second-card .three-lines {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper header .second-card .three-lines .line {
+  margin-top: 3px;
+  width: 25px;
+  height: 3px;
+  background-color: black;
+}
+.wrapper main {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper main .ovals .oval {
+  margin-top: 10px;
+  width: 9px;
+  height: 9px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+.wrapper main .ovals .oval-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30px;
+}
+.wrapper main .ovals .oval-div .oval-1 {
+  margin-top: 0;
+  background-color: white;
+}
+.wrapper main .ovals .oval-div .oval-line {
+  width: 25px;
+  height: 1px;
+  background-color: white;
+}
+.wrapper main .card {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper main .card .about h1 {
+  color: white;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.wrapper main .card .about h4 {
+  margin-bottom: 10px;
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.wrapper main .card .about p {
+  color: white;
+  width: 160px;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.wrapper main .card .about .btns {
+  display: flex;
+  align-items: center;
+}
+.wrapper main .card .about .btns button {
+  margin-right: 5px;
+  border-radius: 25px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid black;
+  padding: 10px 25px;
+}
+.wrapper main .card .about .btns button img {
+  margin-left: 5px;
+}
+.wrapper main .card .about .btns div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 37px;
+  height: 37px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 100%;
+}
+.wrapper main .card .kross {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper main .card .kross .circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.wrapper main .card .kross .circle-1 {
+  background-color: #DE343D;
+}
+.wrapper main .card .kross .circle-2 {
+  background-color: white;
+}
+.wrapper main .card .kross .circle-3 {
+  background-color: white;
+}
+.wrapper main .card .kross .circle-4 {
+  background-color: white;
+}
+.wrapper main .card .kross .circle-5 {
+  background-color: white;
+}
+.wrapper main .card .kross .circle-6 {
+  background-color: rgba(52, 52, 52, 0.4196078431);
+  margin-bottom: 0;
+}
+.wrapper .black-column-line {
+  width: 24px;
+  height: 45px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.wrapper .black-column-line .liner {
+  width: 1px;
+  height: 28px;
+  background-color: white;
+}
+.wrapper footer {
+  display: flex;
+  justify-content: center;
+}
+.wrapper footer .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+}
+.wrapper footer .box .div-block {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper footer .box .div-block .all {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper footer .box .div-block .all .columns {
+  width: 25px;
+  height: 44px;
+  background-color: white;
+}
+.wrapper footer .box .div-block .block-1 {
+  display: flex;
+  justify-content: center;
+}
+.wrapper footer .box .div-block .block-1 h5 {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
